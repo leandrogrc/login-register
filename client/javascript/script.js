@@ -72,7 +72,5 @@ window.document.addEventListener('DOMContentLoaded', ()=>{
                   }).showToast();
             })
             .catch(err=>console.error(err))
-
-            window.location.href = 'https://www.google.com'
     })
 })

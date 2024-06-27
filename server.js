@@ -7,7 +7,8 @@ const PORT = process.env.PORT || 9090
 const app = express()
 app.use(express.json())
 app.use(cors())
+app.use(express.static('./client'))
 
 app.use('/', router)
 
-app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`))
+app.listen(PORT, () => console.log(`Servidor rodando na porta http://localhost:${PORT}`))
