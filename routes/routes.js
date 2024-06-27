@@ -3,7 +3,7 @@ import { cadastrar, login } from '../controllers/controllers.js'
 
 const router = express.Router()
 
-router.get('/')
+//router.get('/')
 
 router.post('/cadastrar', cadastrar)
 
